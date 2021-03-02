@@ -1,0 +1,38 @@
+name: logml
+channels:
+  - defaults
+  - conda-forge
+  - saravji
+dependencies:
+  - ipykernel
+  - ipython
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - pandas
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - pandas-profiling
+  - matplotlib
+  - numpy
+  - python=3.7.9
+  - seaborn
+  - lightgbm
+  - tqdm
+  - pyarrow
+  - shapely
+  - eli5
+  - fbprophet
+  - easydict
+  - xlwt
+  - autopep8
+  - pytest
+  - pip=21.0.1
+  - pip:
+      - sweetviz
+      - nbconvert
+      - Boruta
+      - pylint
+      - click
+      - hyperopt
+      - shap
