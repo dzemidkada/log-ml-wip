@@ -1,0 +1,38 @@
+profilers_to_run:
+  - pandas_profiler
+  - sweetviz_profiler
+  - logml_profiler
+
+logml_profiler_config:
+  views:
+    - id: summary
+
+    # - id: missing_values_analysis
+    #
+    # - id: describe_all
+    #   params:
+    #     # When plotting a histogram, the columns should have at least this
+    #     # number of unique values to show the 'kernel density estimate' line
+    #     kde_min_unique_values: 100
+    #
+    # - id: plots_pairs
+    #   params:
+    #     # Do not plot pairs if the number of variables exceeds the limit
+    #     max_number_of_variables: 20
+    #
+    # - id: correlation_analysis
+    #   params:
+    #     # Consider variables 'highly correlated' if over this threshold
+    #     correlation_threshold: 0.7
+    #     # Do not plot pairs if the number of variables exceeds the limit
+    #     max_number_of_variables: 100
+    #
+    # - id: dendrogram
+    #   params:
+    #     # Do not plot dendrogram if the number of variables exceeds the limit
+    #     max_number_of_variables: 100
+    #
+    # - id: dendrogram_na
+    #   params:
+    #     # Do not plot dendrogram if the number of variables exceeds the limit
+    #     max_number_of_variables: 100
